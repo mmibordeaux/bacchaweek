@@ -57,3 +57,26 @@ img
         vertical-align: middle
         font-size: 30px
         margin: 0 30px 0 20px
+
+.card
+    position: relative
+    &--locked
+        pointer-events: none
+        a
+            pointer-events: none
+        img
+            filter: grayscale(1) brightness(0.5)
+        .card__release
+            display: block
+    &__release
+        font-size: 22px
+        text-align: center
+        display: none
+        left: 0
+        right: 0
+        color: white
+        // font-weight: bold
+        position: absolute
+        top: calc(50% - 30px)
+        transform: translateY(-50%)
+        
