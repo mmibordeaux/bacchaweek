@@ -5,7 +5,7 @@
   link: https://stendhal.netlify.app/
   mention: Pour un meilleur confort et expérience de visite, l'expérience a été conçue pour une navigation sur ordinateur (et non mobile).
   release: 23/03/2021
-  locked: true
+  locked: false
 
 - title: The Square Project
   description: À travers la découverte de l'œuvre “composition 35” de Jean&nbsp;Gorin, découvrez un monde abstrait, dépourvu de formes figuratives. Elle incarne un premier pas vers un monde de formes abstraites et géométriques où la couleur nous guidera dans un voyage, en quête du point de vue parfait à la manière de Georges&nbsp;Rousse.

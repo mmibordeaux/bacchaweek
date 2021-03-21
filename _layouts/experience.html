@@ -31,30 +31,38 @@ layout: default
 <div class="row align-items-center">
   <div class="col-md-1 col-3">
     {% if previous_index >= 0 %}
-      <a href="/{{ previous.title | datapage_url: 'experiences' }}">
-        <img src="/assets/images/experiences/{{ previous.image }}" alt="{{ next.title }}" class="img-fluid">
-      </a>
+      {% unless previous.locked %}
+        <a href="/{{ previous.title | datapage_url: 'experiences' }}">
+          <img src="/assets/images/experiences/{{ previous.image }}" alt="{{ next.title }}" class="img-fluid">
+        </a>
+      {% endunless %}
     {% endif %}
   </div>
   <div class="col-md-5 col-9">
     {% if previous_index >= 0 %}
-      <a href="/{{ previous.title | datapage_url: 'experiences' }}">
-        {{ previous.title }}
-      </a>
+      {% unless previous.locked %}
+        <a href="/{{ previous.title | datapage_url: 'experiences' }}">
+            {{ previous.title }}
+        </a>
+      {% endunless %}
     {% endif %}
   </div>
   <div class="col-md-5 col-9 text-right">
     {% if next %}
-      <a href="/{{ previous.title | datapage_url: 'experiences' }}">
-        {{ next.title }}
-      </a>
+      {% unless next.locked %}
+        <a href="/{{ previous.title | datapage_url: 'experiences' }}">
+          {{ next.title }}
+        </a>
+      {% endunless %}
     {% endif %}
   </div>
   <div class="col-md-1 col-3">
     {% if next %}
-      <a href="/{{ next.title | datapage_url: 'experiences' }}">
-        <img src="/assets/images/experiences/{{ next.image }}" alt="{{ next.title }}" class="img-fluid">
-      </a>
+      {% unless next.locked %}
+        <a href="/{{ next.title | datapage_url: 'experiences' }}">
+          <img src="/assets/images/experiences/{{ next.image }}" alt="{{ next.title }}" class="img-fluid">
+        </a>
+      {% endunless %}
     {% endif %}
   </div>
 </div>
