@@ -21,7 +21,7 @@
   link: https://reve-et-ville.netlify.app/
   mention: Pour un meilleur confort et expérience de visite, l'expérience a été conçue pour une navigation sur ordinateur (et non mobile).
   release: 25/03/2021
-  locked: true
+  locked: false
 
 - title: L'ennui au musée
   subtitle: Ou peut-être pas...
