@@ -30,7 +30,7 @@
   link: https://lennuieaumusee.vercel.app
   mention: Pour un meilleur confort et expérience de visite, l'expérience a été conçue pour une navigation sur ordinateur (et non mobile).
   release: 26/03/2021
-  locked: true
+  locked: false
 
 - title: Vol au musée
   description: L’histoire se déroule à Bordeaux. Le tableau représentant une ancêtre de la famille Challemel du Rozier a été dérobé au musée des Beaux Arts de Bordeaux ! Une chevalière correspondant à cette même famille a été retrouvée sur les lieux du vol. Est-ce une vengeance intra-familiale entre les deux clans de la famille Challemel du Rozier ou est-ce un coup d’un des proches de la famille ? L’enquêteur bordelais a du pain sur la planche pour résoudre cette enquête !
@@ -38,7 +38,7 @@
   link: http://vol-au-musee.yohanntonnerre.fr/
   mention: Pour un meilleur confort et expérience de visite, l'expérience a été conçue pour une navigation sur ordinateur (et non mobile).
   release: 26/03/2021
-  locked: true
+  locked: false
 
 - title: L'amour de l'art
   description: Marcel, étudiant aux Beaux-Arts, hérite du carnet de notes et de croquis de son grand-père, ce qui l’incite à fouiller dans le passé de sa famille. Il y découvre l’histoire de ses aïeuls ainsi que la véritable provenance de ses dons artistiques, à travers une suite d'énigmes et d’indices laissés par son grand-père, au fil des pages et des tableaux.
